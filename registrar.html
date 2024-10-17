@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilosregistrar.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img class="imagen" src="logo.jpg">
+        </div>
+        <div class="barnav">
+      
+            <a onclick="window.location.href = 'index.html';" href="#">Inicio</a>
+            <a onclick="window.location.href = 'adoptar.html';" href="#">Adoptar</a>
+      
+         </div>
+      </nav>
+    
+    <form>
+        <label for="nombre">Nombre Mascota:</label><br>
+        <input type="text" id="nombre_animal" name="nombre"><br><br>
+
+        <label for="sex">Sexo: </label>
+        <select name="sexoanimal" id="sexo">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+        </select><br>
+
+        <label for="tamano">Tamaño: </label>
+        <select name="tamano" id="tamanio">
+            <option value="grande" >Grande</option>
+            <option value="mediano">Mediano</option>
+            <option value="pequeño">Pequeño</option>
+        </select><br>
+
+        <label for="nombre">Ubicacion:</label><br>
+        <input type="text" id="ubicacion" name="nombre"><br><br>
+        
+        <label for="nombre">Tipo de vulnerabilidad:</label><br>
+        <input type="text" id="vulnerabilidad" name="nombre"><br>
+        
+    </form>
+</body>
+</html>
