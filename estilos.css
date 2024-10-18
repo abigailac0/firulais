@@ -1,46 +1,54 @@
-.menu {
-    align-items: center;
-    align-content: center;
+* {
+  padding: 0;
+  margin: 0;
 }
-nav{
-    display:grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    background: aliceblue;
-    font-family: sans-serif;
-    position:fixed;
-    top:0;
-    width:100%;
-   }
- 
- nav .logo{
-     font-size: 24px;
-     font-weight:black;
-   }
- 
- nav .barnav{
-     display:grid;
-     grid-template-columns: repeat(4,auto);
-     margin-right: 30px;
-   }
- 
- nav .barnav div{
-     padding: 10px 20px;
-    }
- 
- nav .barnav div:hover{
-     cursor: pointer; 
-     background:#CDDC39;
+
+p {
+  margin-bottom: 20px;
+}
+
+header {
+  background: #086972;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color:white;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #092635;
+}
+.contenido {
+  padding-top: 80px;
  }
- 
- .contenido{ 
-     height: 1100px;
-     margin-top: 60px;  
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
  }
 
-  .imagen {
-    width: 200px;
-    height: 200px;
-  }
-  
- 
+.imagen {
+  align-items: center;
+  align-content: center;
+}

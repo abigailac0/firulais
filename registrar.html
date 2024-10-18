@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="estilosregistrar.css">
     
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img class="imagen" src="logo.jpg">
-        </div>
-        <div class="barnav">
-      
-            <a onclick="window.location.href = 'index.html';" href="#">Inicio</a>
-            <a onclick="window.location.href = 'adoptar.html';" href="#">Adoptar</a>
-      
-         </div>
-      </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a onclick="window.location.href = 'index.html';" href="#">Inicio</a></li>
+                <li><a onclick="window.location.href = 'adoptar.html';" href="#">Adoptar</a></li>
+                <li><a onclick="window.location.href = 'registrar.html';" href="#">Registra un Peludo</a></li>
+                <li><a href="#">Quienes Somos</a></li>
+                <li><a href="#">Contáctanos</a></li>
+        </nav>
+    </header>
     
-    <form>
+  <section class="contenido wrapper"> 
+   <form>
         <label for="nombre">Nombre Mascota:</label><br>
         <input type="text" id="nombre_animal" name="nombre"><br><br>
 
@@ -44,5 +45,7 @@
         <input type="text" id="vulnerabilidad" name="nombre"><br>
         
     </form>
+   </section> 
+
 </body>
 </html>
